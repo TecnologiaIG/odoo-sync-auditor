@@ -1,0 +1,22 @@
+{
+  "name": "odoo-sync-auditor",
+  "version": "0.1.0",
+  "description": "Audit synchronization health between Odoo (CRM + Sales) and external systems (CRMs, ERPs, real-estate platforms). Detects duplicates, price drift, and record gaps with severity classification.",
+  "author": "Allan Rosales",
+  "homepage": "https://github.com/TecnologiaIG/odoo-sync-auditor",
+  "license": "MIT",
+  "keywords": [
+    "odoo",
+    "sync",
+    "audit",
+    "data-quality",
+    "reconciliation"
+  ],
+  "components": {
+    "skills": [
+      "skills/sync-detect-duplicates",
+      "skills/sync-detect-drift",
+      "skills/sync-detect-gaps"
+    ]
+  }
+}

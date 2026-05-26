@@ -1,0 +1,14 @@
+{
+  "name": "odoo-sync-auditor",
+  "description": "Audit Odoo synchronization with external systems",
+  "owner": {
+    "name": "Allan Rosales"
+  },
+  "plugins": [
+    {
+      "name": "odoo-sync-auditor",
+      "source": ".",
+      "description": "Detect duplicates, drift, gaps between Odoo and external CRMs/ERPs"
+    }
+  ]
+}
